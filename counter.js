@@ -1,7 +1,7 @@
 import {flatten} from 'lodash-es';
 
 export function setupCounter(element) {
-  console.log(flatten([[[1,2,3,4,5]]]));
+  console.log(flatten([[[1,2,3,4,5,6]]]));
 
   let counter = 0
   const setCounter = (count) => {
